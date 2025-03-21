@@ -1,0 +1,31 @@
+#basic {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#Calculator {
+    border: 1px solid rgb(95, 93, 93);
+    border-radius: 5px;
+    width: 250px;
+}
+#display {
+    margin:10px;
+    width:85%;
+    font-size: 30px;
+}
+ .button-container {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap: wrap;
+ }
+
+.button {
+    width: 55px;
+    height: 55px;
+    margin: 4px;
+}
+.button:hover {
+    background-color:rgba(47, 185, 231, 0.7);
+}
